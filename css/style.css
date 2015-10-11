@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css?family=Comfortaa&subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Rubik+One&subset=latin,cyrillic);
+body{
+  overflow-x: hidden;
+}
+.headfixed{
+  min-height: 60px;
+  border-bottom: 1px solid #CCC;
+  position: fixed;
+  width: 100%;
+  background-color: rgba(255,255,255,0.9);
+  z-index: 100;
+}
+.bigfon{
+  background-image: url('../img/fon.jpg');
+  min-height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.headmenu{
+  list-style: none;
+  margin-left: 0px;
+  padding: 0px;
+  margin-top: 15px;
+}
+.headmenu li{
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.headmenu li a{
+  color:black;
+  font-family: 'Comfortaa', cursive;
+  font-size:130%;
+  text-align: center;
+}
+h1.slogan{
+  font-family: 'Rubik One', sans-serif;
+  font-size:340%;
+  color: black;
+  text-transform: uppercase;
+  width:60%;
+  margin-top: 14%;
+  color: black;
+  line-height: 130%;
+}
+.buticon{
+  text-align: center;
+}
+.bottom{
+  text-align: center;
+  margin: 0px auto;
+  width:70px;
+  margin-top: 20%;
+}
+.bottom:hover{
+  -o-animation-name: pulse;
+}
+.block2{
+  min-height: 500px;
+}
+h1.title{
+  font-family: 'Rubik One', sans-serif;
+  font-size:230%;
+  color: black;
+  text-transform: uppercase;
+
+  margin-top: 50px;
+  text-align: center;
+  color: black;
+  line-height: 130%;
+}
+h1.titlewhite{
+  font-family: 'Rubik One', sans-serif;
+  font-size:230%;
+  color: white;
+  text-transform: uppercase;
+
+  margin-top: 50px;
+  text-align: center;
+  line-height: 130%;
+}
+.zakaz1{
+  background-image: url('../img/fon1.jpg');
+  min-height: 400px;
+  padding-bottom: 50px;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 0px
+
+}
+.zakaz1black{
+  min-height: 400px;
+  padding-bottom: 50px;
+  background-color: rgba(0,0,0,0.8);
+}
+.zakaz2{
+  min-height: 400px;
+    background-image: url('../img/akc.png');
+    background-size: cover;
+    background-attachment: fixed;
+  padding: 0px;
+}
+.zakaz2black{
+  min-height: 400px;
+  padding-bottom: 50px;
+  background-color: rgba(0,0,0,0.8);
+}
+input{
+  border: none;
+  border-radius: 0px;
+}
